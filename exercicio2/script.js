@@ -13,3 +13,8 @@ const filme = {
 };
 
 // respostas aqui ⬇️
+
+console.log('Primeiro ator:', filme.elenco[0]); 
+console.log('Último ator:', filme.elenco[3]); 
+console.log('Transmissões de hoje:', filme.transmissoesHoje);
+console.log('Horário de transmissão no Canal Brasil:', filme.transmissoesHoje[1].horario); 
